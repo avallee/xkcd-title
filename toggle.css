@@ -1,0 +1,9 @@
+.xkcd-title-open
+{
+	display: block;
+}
+
+.xkcd-title-closed
+{
+	display: none;
+}

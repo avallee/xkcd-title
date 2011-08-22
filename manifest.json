@@ -1,0 +1,14 @@
+{
+  "name": "XKCD Title",
+  "version": "0.0.2",
+  "description": "Doubleclick the comic to show alt text",
+  "icons": { "128": "icon.png" },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://www.google.com/reader/*"],
+      "js": ["toggle.js"],
+	  "css": ["toggle.css"],
+	  "all_frames": true
+    }
+  ]
+}
