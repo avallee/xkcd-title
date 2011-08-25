@@ -7,8 +7,8 @@
     {
       "matches": ["http://*/*", "https://www.google.com/reader/*"],
       "js": ["toggle.js"],
-	  "css": ["toggle.css"],
-	  "all_frames": true
+      "css": ["toggle.css"],
+      "all_frames": true
     }
   ]
 }
